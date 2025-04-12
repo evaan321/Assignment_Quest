@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "145086556209",
+    "project_id": "assignmentquest-46fb7",
+    "storage_bucket": "assignmentquest-46fb7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145086556209:android:eb78ab81ff98bb30728d10",
+        "android_client_info": {
+          "package_name": "com.example.jobquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_MR0ciwSgl3Tad9qTtDwe-Cc3W5Ux70U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
