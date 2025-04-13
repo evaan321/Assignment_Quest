@@ -28,27 +28,23 @@ class WallPost extends StatelessWidget {
               color: Colors.white,
             ),
           ),
+
           const SizedBox(
             width: 20,
           ),
-          // Wrap the Column in Expanded to allow it to use available space
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  User,
-                  style: TextStyle(color: Colors.grey[500]),
-                ),
-                const SizedBox(height: 10),
-                Text(
-                  message,
-                  maxLines: 10,
-                  overflow: TextOverflow.ellipsis,
-                ),
-              ],
-            ),
-          ),
+
+          //msg and useremail
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                User,
+                style: TextStyle(color: Colors.grey[500]),
+              ),
+              const SizedBox(height: 10),
+              Text(message),
+            ],
+          )
         ],
       ),
     );
